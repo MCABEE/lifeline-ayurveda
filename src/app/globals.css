@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* font */
+
+.open-sans {
+  font-family: "Open Sans", serif;
+}
+
+
+/* .bg-image{
+  background-image: url("/assets/bg-image.svg");
+ 
+} */
+
+
+
+
+.bg-image {
+  background-image: url("/assets/bg-image.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0C0C0C66; /* 40% opacity */
+  background-blend-mode: darken;
+}
+
