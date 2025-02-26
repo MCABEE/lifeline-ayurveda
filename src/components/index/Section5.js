@@ -12,8 +12,8 @@ function Section5() {
       <h1 className="text-[14px] sm:text-[16px] xl:text-[20px] text-[#333333] text-center">
         Real stories of healing and wellness from our satisfied customers
       </h1>
-      <div className="pt-[20px] flex flex-col sm:flex-row gap-y-4 gap-x-4  xl:gap-x-8">
-        <div className="w-full sm:w-1/2 border-[1px] border-[#999999] rounded-[10px] px-6 sm:px-4 lg:ps-9 xl:ps-[66px] lg:pe-[23px]">
+      <div className="w-full pt-[20px] flex overflow-hidden overflow-x-scroll  gap-y-4 gap-x-4  xl:gap-x-8">
+        <div className="min-w-[328px] sm:w-1/2 border-[1px] border-[#999999] rounded-[10px] px-6 sm:px-4 lg:ps-9 xl:ps-[66px] lg:pe-[23px]">
           <img
             src="/assets/double-quotes.svg"
             alt="img"
@@ -33,7 +33,7 @@ function Section5() {
           <h3 className="text-[14px] text-[#333333] pb-[25px]">Alappuzha</h3>
         </div>
 
-        <div className="w-full sm:w-1/2 border-[1px] border-[#999999] rounded-[10px] px-6 sm:px-4 lg:ps-9 xl:ps-[66px] lg:pe-[23px]">
+        <div className="min-w-[328px] sm:w-1/2 border-[1px] border-[#999999] rounded-[10px] px-6 sm:px-4 lg:ps-9 xl:ps-[66px] lg:pe-[23px]">
           <img
             src="/assets/double-quotes.svg"
             alt="img"
