@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
  <div>
-      <div className='px-[40px] sm:px-[20px] md:px-[60px] xl:px-[160px] 2xl:px-[197px] pt-[20px] sm:pt-[48px] lg:pt-[68px] pb-[18px] border-b-[1px] sm:border-y-[1px] border-[#999999]'>
+      <div className='px-[40px] sm:px-[20px] md:px-[60px] xl:px-[160px] 2xl:px-[197px] pt-[20px] sm:pt-[48px] lg:pt-[68px] pb-[18px] border-y-[1px] sm:border-y-[1px] border-[#999999]'>
      <div className='hidden sm:grid grid-cols-4'>
         <div className='pt-6'>
         <img src="/assets/footer-logo.svg" alt="logo" className='w-[80px] lg:w-auto'/>

@@ -27,3 +27,14 @@
   background-blend-mode: darken;
 }
 
+
+
+.bg-image-ayurvedaTherapy {
+  background-image: url("/assets/ayurvedaTherapy-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0C0C0C80; /* 50% opacity */
+
+  background-blend-mode: darken;
+}
