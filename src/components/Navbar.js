@@ -34,6 +34,7 @@
 "use client"
 
 
+import Link from 'next/link';
 import React, { useState } from 'react'
 
 function Navbar() {
@@ -47,7 +48,9 @@ function Navbar() {
   return (
     <div className='w-full'>
       <div className='flex justify-between items-center py-4 px-[15px] sm:px-[50px] xl:px-[100px] 2xl:px-[196px] bg-white drop-shadow-md'>
-        <img src="/assets/logo.svg" alt="logo" className='w-[80px] sm:w-[150px] xl:w-auto' />
+       <Link href={"/"}>
+       <img src="/assets/logo.svg" alt="logo" className='w-[80px] sm:w-[150px] xl:w-auto' />
+       </Link>
         {/* Desktop Navigation */}
         <div className='hidden lg:flex items-center space-x-[50px] xl:space-x-[105px]'>
         <div className='flex items-center space-x-6 xl:space-x-12 text-[14px] xl:text-[16px] text-[#333333]'>
@@ -57,9 +60,11 @@ function Navbar() {
             <span className='font-semibold'>Testimonials</span>
             <span className='font-semibold'>About us</span>
           </div>
+          <Link href={"/contact"}>
           <button className='w-[120px] h-[40px] text-[16px] font-semibold text-white bg-[#09B438] flex justify-center items-center rounded-[10px]'>
             Contact
           </button>
+          </Link>
         </div>
 
         {/* Hamburger Icon for Mobile */}
@@ -83,9 +88,13 @@ function Navbar() {
           <li className="cursor-pointer hover:text-gray-300">Testimonials</li>
           <li className="cursor-pointer hover:text-gray-300">About us</li> 
         </ul>
-        <button className='w-[100px] h-[40px] text-[14px] mt-16 font-semibold text-white bg-[#09B438] flex justify-center items-center rounded-[10px]'>
+       <Link href={"/contact"}>
+       <button
+          onClick={toggleDrawer}
+          className='w-[100px] h-[40px] text-[14px] mt-16 font-semibold text-white bg-[#09B438] flex justify-center items-center rounded-[10px]'>
               Contact
             </button>
+       </Link>
       </div>
 
       {/* Drawer Overlay */}
