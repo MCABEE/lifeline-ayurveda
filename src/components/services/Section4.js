@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Section4() {
@@ -10,9 +11,11 @@ function Section4() {
               <p className=' text-[14px] xl:text-[16px] text-black font-light pt-[17px] leading-[140%] md:pe-10'>
               Our rejuvenating treatments include herbal oil massages, skin exfoliation with herbal powders, hair care rituals, and revitalizing face packs, all designed to support hormone balance, promote healing, and restore the body’s natural glow.
                   </p>
+                  <Link href={"/postnatalCare"}>
                   <button className='w-[140px] xl:w-[160px] h-[40px] md:h-[48px] bg-[#3674B5] flex justify-center items-center text-white text-[14px] xl:text-[16px] font-semibold rounded-[10px] mt-[30px] mb-[20px] '>
                  Learn More
                   </button>
+                  </Link>
       </div>
       <div className='w-full md:w-1/2  round-r-[30px] overflow-hidden'>
           <img src="/assets/pregnancy-img.svg" alt="pregnancy-img" className='w-full h-full object-cover hidden md:block ' />

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function page() {
@@ -103,9 +104,11 @@ function page() {
       <h1 className='text-[16px] sm:text-[20px] font-semibold text-center text-[#333333]' >
       We’d love to hear from you!, Leave a testimonial and share your thoughts!
       </h1>
-      <button className='w-[280px] sm:w-[384px] h-[40px] sm:h-[48px] mx-auto mt-[21px] sm:mt-[51px] mb-[48px] sm:mb-[74px] flex justify-center items-center text-white text-[14px] sm:text-[16px] font-semibold bg-[#3B7DED] rounded-[10px]'>
+   <Link href={"/contact"}>
+   <button className='w-[280px] sm:w-[384px] h-[40px] sm:h-[48px] mx-auto mt-[21px] sm:mt-[51px] mb-[48px] sm:mb-[74px] flex justify-center items-center text-white text-[14px] sm:text-[16px] font-semibold bg-[#3B7DED] rounded-[10px]'>
       Write now
       </button>
+   </Link>
 
     </div>
     </div>

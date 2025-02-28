@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Section3() {
@@ -13,7 +14,9 @@ function Section3() {
           <div className='px-[24px] pt-[25px] pb-[35px]'>
             <h1 className='text-[24px] font-semibold text-[#333333]'>Ayurveda Care</h1>
             <p className='text-[14px] font-light text-[#333333] leading-[120%] pt-[13px] pb-[25px] sm:h-[150px]'>Our Ayurveda Care section offers specialized treatments, including Spine & Joint Care, Geriatric Care, Skin & Hair Care, and more, designed to promote overall well-being and healing.</p>
-            <span className='text-[14px] text-[#3674B5] '>Details</span>
+           <Link href={"/ayurvedaCare"}>
+           <span className='text-[14px] text-[#3674B5] '>Details</span>
+           </Link>
           </div>
         </div>
 
@@ -22,7 +25,9 @@ function Section3() {
           <div className='px-[24px] pt-[25px] pb-[35px]'>
             <h1 className='text-[24px] font-semibold text-[#333333]'> Ayurveda Cure</h1>
             <p className='text-[14px] font-light text-[#333333] leading-[120%] pt-[13px] pb-[25px] sm:h-[150px]'>Ayurveda Cure section for Neurological Disorders, Musculoskeletal Ailments, Women's Health (PCOD, etc.), Skin Conditions, and more, focusing on holistic healing and long-term wellness.</p>
-            <span className='text-[14px] text-[#3674B5] '>Details</span>
+           <Link href={"/ayurvedaCure"}>
+           <span className='text-[14px] text-[#3674B5] '>Details</span>
+           </Link>
           </div>
         </div>
 
@@ -31,8 +36,11 @@ function Section3() {
           <div className='px-[24px] pt-[25px] pb-[35px]'>
             <h1 className='text-[24px] font-semibold text-[#333333]'>Wellness</h1>
             <p className='text-[14px] font-light text-[#333333] leading-[120%] pt-[13px] pb-[25px] sm:h-[150px]'>Our Wellness Treatments include Rejuvenation, Anti-Aging, Detox, Immunity Boosting, and more, promoting overall health and vitality.</p>
+              <Link href={"/ayurvedaWellness"}>
             <span className='text-[14px] text-[#3674B5] '>Details</span>
-          </div>
+              
+              </Link>
+            </div>
         </div>
 
         <div className='w-full xl:w-[262px] border-[1px] border-[#999999] rounded-[10px] overflow-hidden col-start-auto lg:col-start-2 xl:col-start-auto'>
@@ -40,7 +48,10 @@ function Section3() {
           <div className='px-[24px] pt-[25px] pb-[35px]'>
             <h1 className='text-[24px] font-semibold text-[#333333]'>Ayurveda Therapy</h1>
             <p className='text-[14px] font-light text-[#333333] leading-[120%] pt-[13px] pb-[25px] sm:h-[150px]'>Our Ayurveda Therapies include Shirodhara, Shirovasti, Nasyam, Kizhi, Abhyanga, Pizhichil, and more, offering holistic healing and deep relaxation.</p>
+              <Link href={"/ayurvedaTherapy"}>
             <span className='text-[14px] text-[#3674B5] '>Details</span>
+              
+              </Link>         
           </div>
         </div>
 

@@ -21,17 +21,28 @@ function Footer() {
             <Link href={"/testimonials"}>
             <span className=' text-[#333333]'>Testimonials</span>
             </Link>
-            <Link href={""}>
+            <Link href={"/aboutUs"}>
             <span className=' text-[#333333]'>About us</span> 
             </Link>
         </div>
 
         <div className='flex flex-col gap-y-3 lg:gap-y-5 text-[12px] lg:text-[16px]'>
-            <span className=' text-[#333333]'>Ayurveda Care</span>
-            <span className=' text-[#333333]'>Ayurveda Cure</span>
-            <span className=' text-[#333333]'> Wellness</span>
+        <Link href={"/ayurvedaCare"}>
+                <span className=' text-[#333333]'>Ayurveda Care</span>
+               </Link>
+                <Link href={"/ayurvedaCure"}>
+            <span className=' text-[#333333]'>Ayurveda Cure</span>                
+                </Link>
+                <Link href={"/ayurvedaWellness"}>
+            <span className=' text-[#333333]'> Wellness</span>               
+                </Link>
+                <Link href={"/ayurvedaTherapy"}>
             <span className=' text-[#333333]'>Ayurveda Therapy</span>
+             </Link>
+             <Link href={"/postnatalCare"}>
             <span className=' text-[#333333]'>Postnatal Care</span>
+             
+             </Link>
         </div>
 
         <div className='flex flex-col text-[12px] lg:text-[16px] '>
@@ -66,7 +77,7 @@ function Footer() {
             <Link href={"/testimonials"}>
             <span className=' text-[#333333]'>Testimonials</span>
             </Link>
-            <Link href={""}>
+            <Link href={"/aboutUs"}>
             <span className=' text-[#333333]'>About us</span> 
             </Link>
         </div>
@@ -82,9 +93,11 @@ function Footer() {
                 </Link>
                 <Link href={"/ayurvedaTherapy"}>
             <span className=' text-[#333333]'>Ayurveda Therapy</span>
-                
-                </Link>
+             </Link>
+             <Link href={"/postnatalCare"}>
             <span className=' text-[#333333]'>Postnatal Care</span>
+             
+             </Link>
         </div>
 
 

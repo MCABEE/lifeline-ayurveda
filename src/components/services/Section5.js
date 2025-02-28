@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Section5() {
@@ -18,9 +19,12 @@ function Section5() {
 
 
               Our journey began in 1980 with the establishment of an Ayurvedic Treatment Centre in Pala, Kerala. Since then, we have been dedicated to providing holistic healing—restoring physical health while fostering a deep connection to the inner self. </p>
-                  <button className='w-[140px] xl:w-[160px] h-[40px] md:h-[48px] bg-[#3674B5] flex justify-center items-center text-white text-[14px] xl:text-[16px] font-semibold rounded-[10px] mt-[30px] mb-[20px] '>
+                 
+                 <Link href={"/ayurvedaCure"}>
+                 <button className='w-[140px] xl:w-[160px] h-[40px] md:h-[48px] bg-[#3674B5] flex justify-center items-center text-white text-[14px] xl:text-[16px] font-semibold rounded-[10px] mt-[30px] mb-[20px] '>
                  Learn More
                   </button>
+                 </Link>
       </div>
   </div>
 </div> 

@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import React from 'react';
 
 function Section3() {
@@ -47,9 +48,11 @@ function Section3() {
         </div>
       ))}
 
+<Link href={"/contact"}>
 <button className='w-[216px] xl:w-[328px] h-[40px] md:h-[64px] mx-auto my-[48px] text-white flex justify-center items-center bg-[#09B438] rounded-[15px] text-[12px] xl:text-[16px] font-semibold'>
     BOOK APPOINTMENT
     </button>
+</Link>
     </div>
   );
 }

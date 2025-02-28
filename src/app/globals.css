@@ -40,6 +40,17 @@
 
 
 
+.bg-image-postnatalCare {
+  background-image: url("/assets/postnatal-care.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0C0C0C80; /* 50% opacity */
+  background-blend-mode: darken;
+}
+
+
+
 
 
 /* scrollbar */

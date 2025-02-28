@@ -193,7 +193,11 @@ function Navbar() {
             <span className='font-semibold'>Testimonials</span>
             
             </Link>
+
+            <Link href={"/aboutUs"}>
             <span className='font-semibold'>About us</span>
+            
+            </Link>
           </div>
 
           <Link href={"/contact"}>
@@ -250,7 +254,10 @@ function Navbar() {
           <Link href={"/testimonials"}>
           <li onClick={toggleDrawer} className="cursor-pointer hover:text-gray-300 pb-6">Testimonials</li>
           </Link>
+          <Link href={"/aboutUs"}>
+
           <li onClick={toggleDrawer} className="cursor-pointer hover:text-gray-300 pb-6">About us</li>
+          </Link>
         </ul>
 
         <Link href={"/contact"}>
