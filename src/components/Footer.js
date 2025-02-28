@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -10,11 +11,19 @@ function Footer() {
         </div>
 
         <div className='flex flex-col gap-y-3 lg:gap-y-5 text-[12px] lg:text-[16px]'>
+            <Link href={"/services"}>
             <span className=' text-[#333333]'>Services</span>
-            <span className=' text-[#333333]'>Treatments</span>
-            <span className=' text-[#333333]'>Our Team</span>
+            </Link>
+            <Link href={"/ayurvedaTherapy"}>
+            <span className=' text-[#333333]'>Treatments</span>            
+            </Link>
+            {/* <span className=' text-[#333333]'>Our Team</span> */}
+            <Link href={"/testimonials"}>
             <span className=' text-[#333333]'>Testimonials</span>
-            <span className=' text-[#333333]'>About us</span>
+            </Link>
+            <Link href={""}>
+            <span className=' text-[#333333]'>About us</span> 
+            </Link>
         </div>
 
         <div className='flex flex-col gap-y-3 lg:gap-y-5 text-[12px] lg:text-[16px]'>
@@ -46,18 +55,35 @@ function Footer() {
         <div className='w-full flex'>
 <div className='w-1/2 text-[14px]  gap-y-3 flex flex-col'>
 
-<span className=' text-[#333333]'>Services</span>
-            <span className=' text-[#333333]'>Treatments</span>
-            <span className=' text-[#333333]'>Our Team</span>
+
+<Link href={"/services"}>
+            <span className=' text-[#333333]'>Services</span>
+            </Link>
+            <Link href={"/ayurvedaTherapy"}>
+            <span className=' text-[#333333]'>Treatments</span>            
+            </Link>
+            {/* <span className=' text-[#333333]'>Our Team</span> */}
+            <Link href={"/testimonials"}>
             <span className=' text-[#333333]'>Testimonials</span>
-            <span className=' text-[#333333]'>About us</span>
+            </Link>
+            <Link href={""}>
+            <span className=' text-[#333333]'>About us</span> 
+            </Link>
         </div>
         <div className='w-1/2 text-[14px] gap-y-3 flex flex-col'>
-
-<span className=' text-[#333333]'>Ayurveda Care</span>
-            <span className=' text-[#333333]'>Ayurveda Cure</span>
-            <span className=' text-[#333333]'> Wellness</span>
+                <Link href={"/ayurvedaCare"}>
+                <span className=' text-[#333333]'>Ayurveda Care</span>
+               </Link>
+                <Link href={"/ayurvedaCure"}>
+            <span className=' text-[#333333]'>Ayurveda Cure</span>                
+                </Link>
+                <Link href={"/ayurvedaWellness"}>
+            <span className=' text-[#333333]'> Wellness</span>               
+                </Link>
+                <Link href={"/ayurvedaTherapy"}>
             <span className=' text-[#333333]'>Ayurveda Therapy</span>
+                
+                </Link>
             <span className=' text-[#333333]'>Postnatal Care</span>
         </div>
 
