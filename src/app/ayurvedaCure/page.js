@@ -7,8 +7,10 @@ function page() {
   return (
     <div>
         <Section1/>
+        <div className='max-w-[1800px] mx-auto'>
         <Section2/>
         <Section3/>
+        </div>
     </div>
   )
 }
