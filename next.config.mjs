@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: "export", // This triggers `next export` instead of normal `next build`
+  images: {
+    unoptimized: true, // Cloudflare Pages does not support Next.js Image Optimization
+  },
+};
 
 export default nextConfig;
