@@ -24,6 +24,9 @@ function Footer() {
             <Link href={"/aboutUs"}>
             <span className=' text-[#333333]'>About us</span> 
             </Link>
+            <Link href={"/gallery"}>
+            <span className=' text-[#333333]'>Gallery</span> 
+            </Link>
         </div>
 
         <div className='flex flex-col gap-y-3 lg:gap-y-5 text-[12px] lg:text-[16px]'>
@@ -79,6 +82,9 @@ function Footer() {
             </Link>
             <Link href={"/aboutUs"}>
             <span className=' text-[#333333]'>About us</span> 
+            </Link>
+            <Link href={"/gallery"}>
+            <span className=' text-[#333333]'>Gallery</span> 
             </Link>
         </div>
         <div className='w-1/2 text-[14px] gap-y-3 flex flex-col'>
