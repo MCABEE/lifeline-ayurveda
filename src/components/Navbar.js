@@ -189,10 +189,10 @@ function Navbar() {
             </div>
 
             {/* <span className='font-semibold'>Our Team</span> */}
-            <Link href={"/testimonials"}>
+            {/* <Link href={"/testimonials"}>
             <span className='font-semibold'>Testimonials</span>
             
-            </Link>
+            </Link> */}
 
             <Link href={"/aboutUs"}>
             <span className='font-semibold'>About us</span>
@@ -255,9 +255,9 @@ function Navbar() {
           </ul>
 
           {/* <li className="cursor-pointer hover:text-gray-300">Our Team</li> */}
-          <Link href={"/testimonials"}>
+          {/* <Link href={"/testimonials"}>
           <li onClick={toggleDrawer} className="cursor-pointer hover:text-gray-300 pb-6">Testimonials</li>
-          </Link>
+          </Link> */}
           <Link href={"/aboutUs"}>
 
           <li onClick={toggleDrawer} className="cursor-pointer hover:text-gray-300 pb-6">About us</li>

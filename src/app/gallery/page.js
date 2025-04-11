@@ -391,7 +391,7 @@ const GalleryPage = () => {
         </h1>
 
         {/* Main Image Display */}
-        <div className='w-full border border-[#999999] rounded-[10px] px-[11px] sm:px-[40px] xl:px-[71px] py-[8px] sm:py-[32px] my-[14px] sm:my-[40px] relative'>
+        <div className='w-full  px-[11px] sm:px-[40px] xl:px-[71px] py-[8px] sm:py-[32px] my-[14px] sm:my-[40px] relative'>
           <img
             src="/assets/left-arrow.svg"
             alt="left-arrow"

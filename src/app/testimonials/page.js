@@ -21,18 +21,14 @@ function page() {
             alt="img"
             className="py-[24px] sm:pt-[48px] sm:pb-[19px]"
           />
-          <p className="text-[14px] sm:text-[16px] text-[#333333] font-light leading-[140%]">
-            Dreaming of a nursing career but worried about the cost? We offer
-            financially struggling yet academically bright students a unique
-            opportunity: free nursing education in Karnataka, supported by a
-            part-time job.
-            <br />
-            With your job earnings, you can cover your college fees.
+          <p className="text-[14px] sm:text-[16px] text-[#333333] xl:h-[120px] font-light leading-[140%]">
+          I recently visited the newly opened Lifeline Ayurveda center and was genuinely impressed. The environment is welcoming, the staff is very cooperative, and the service quality stands out. A great place to begin your Ayurvedic wellness journey.
+
           </p>
           <h2 className="text-[16px] text-[#333333] font-semibold pt-[24px] sm:pt-[18px] pb-[4px]">
-            Keerthy Raghunath
+          Thomas P
           </h2>
-          <h3 className="text-[14px] text-[#333333] pb-[25px]">Alappuzha</h3>
+          <h3 className="text-[14px] text-[#333333] pb-[25px]">Thodupuzha</h3>
         </div>
 
         <div className="min-w-[328px] sm:w-1/2 border-[1px] border-[#999999] rounded-[10px] px-6 sm:px-4 lg:ps-9 xl:ps-[66px] lg:pe-[23px]">
@@ -41,63 +37,19 @@ function page() {
             alt="img"
             className="py-[24px] sm:pt-[48px] sm:pb-[19px]"
           />
-          <p className="text-[14px] sm:text-[16px] text-[#333333] font-light leading-[140%]">
-            Dreaming of a nursing career but worried about the cost? We offer
-            financially struggling yet academically bright students a unique
-            opportunity: free nursing education in Karnataka, supported by a
-            part-time job.
-            <br />
-            With your job earnings, you can cover your college fees.
+          <p className="text-[14px] sm:text-[16px] text-[#333333] xl:h-[120px]  font-light leading-[140%]">
+          Lifeline Ayurveda offers excellent service with a team that’s truly supportive and professional. I was especially happy with their affordable packages, making quality Ayurvedic care accessible without compromising on comfort or attention. Highly recommend them!
+
           </p>
           <h2 className="text-[16px] text-[#333333] font-semibold pt-[24px] sm:pt-[18px] pb-[4px]">
-           Rahul Singh
+          Pradeepkumar G
           </h2>
-          <h3 className="text-[14px] text-[#333333] pb-[25px]">Pune</h3>
+          <h3 className="text-[14px] text-[#333333] pb-[25px]">Palai</h3>
         </div>
       </div>
 
 
-      <div className="w-full pt-[21px] sm:pt-[32px] flex overflow-hidden overflow-x-scroll   gap-y-4 gap-x-4  xl:gap-x-8">
-        <div className="min-w-[328px] sm:w-1/2 border-[1px] border-[#999999] rounded-[10px] px-6 sm:px-4 lg:ps-9 xl:ps-[66px] lg:pe-[23px]">
-          <img
-            src="/assets/double-quotes.svg"
-            alt="img"
-            className="py-[24px] sm:pt-[48px] sm:pb-[19px]"
-          />
-          <p className="text-[14px] sm:text-[16px] text-[#333333] font-light leading-[140%]">
-            Dreaming of a nursing career but worried about the cost? We offer
-            financially struggling yet academically bright students a unique
-            opportunity: free nursing education in Karnataka, supported by a
-            part-time job.
-            <br />
-            With your job earnings, you can cover your college fees.
-          </p>
-          <h2 className="text-[16px] text-[#333333] font-semibold pt-[24px] sm:pt-[18px] pb-[4px]">
-            Keerthy Raghunath
-          </h2>
-          <h3 className="text-[14px] text-[#333333] pb-[25px]">Alappuzha</h3>
-        </div>
-
-        <div className="min-w-[328px] sm:w-1/2 border-[1px] border-[#999999] rounded-[10px] px-6 sm:px-4 lg:ps-9 xl:ps-[66px] lg:pe-[23px]">
-          <img
-            src="/assets/double-quotes.svg"
-            alt="img"
-            className="py-[24px] sm:pt-[48px] sm:pb-[19px]"
-          />
-          <p className="text-[14px] sm:text-[16px] text-[#333333] font-light leading-[140%]">
-            Dreaming of a nursing career but worried about the cost? We offer
-            financially struggling yet academically bright students a unique
-            opportunity: free nursing education in Karnataka, supported by a
-            part-time job.
-            <br />
-            With your job earnings, you can cover your college fees.
-          </p>
-          <h2 className="text-[16px] text-[#333333] font-semibold pt-[24px] sm:pt-[18px] pb-[4px]">
-           Rahul Singh
-          </h2>
-          <h3 className="text-[14px] text-[#333333] pb-[25px]">Pune</h3>
-        </div>
-      </div>
+     
 
 
       <h1 className='text-[32px]  xl:text-[42px] font-semibold text-center text-[#333333] pt-[55px]' >Want to share your experience?</h1>
